@@ -3,10 +3,10 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ArrayList;
-public class dfs<T> {
+public class grafo<T> {
 
-        // This one will visit the last child first
-        public void traverse(vertex<T> startVertex) {
+
+        public void dfs(vertex<T> startVertex) {
             Deque<vertex<T>> stack = new LinkedList<>();
             stack.push(startVertex);
             while (!stack.isEmpty()) {
@@ -19,13 +19,14 @@ public class dfs<T> {
             }
         }
 
+        //Busca los paths, usando esto voy a encontrar los paths posibles
         public List<List<vertex<T>>>findallPaths(vertex<T> inicial, vertex<T> end){
             List<List<vertex<T>>> paths = new ArrayList<>();
             List<vertex<T>> currentPath = new ArrayList<>();
             helper(paths,currentPath,inicial,end);
             return paths;
         }
-
+        //este método pa tran
         private void helper(List<List<vertex<T>>> paths, List<vertex<T>> currentPath,vertex<T> current, vertex<T> end ){
         currentPath.add(current);
         if (current.equals(end)){
