@@ -34,14 +34,23 @@ public class  Main{
         dfs.dfs(v0);
 
 
-        List<List<vertex<Integer>>> paths = dfs.findallPaths(v0, v6);
+        List<List<vertex<Integer>>> paths1 = dfs.findallPaths(v0, v6);
 
         System.out.println("All paths from vertex 0 to vertex 6:");
+        public int totalPaths ()
+        for (List<vertex<Integer>> path : paths1) {
+            int countP = 0;
+            System.out.println(path);
+            countP=+ countP;
+            System.out.println("Total paths yet"+ countP);
 
-        for (List<vertex<Integer>> path : paths) {
-            System.out.println(path); }
+        }
+
+
 
         List<List<vertex<Integer>>> pathss = dfs.findallPaths(v6, v0);
-        for(List<vertex<Integer>> graph : )
+
+
+
     }
 }

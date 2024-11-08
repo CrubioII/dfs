@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9996745-a437-4775-b7fb-3b6f0dc50ccd" name="Changes" comment="">
+    <list default="true" id="d9996745-a437-4775-b7fb-3b6f0dc50ccd" name="Changes" comment="Defino el grafo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/grafo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +84,22 @@
       <updated>1731080972300</updated>
       <workItem from="1731080973542" duration="5969000" />
     </task>
+    <task id="LOCAL-00001" summary="Defino el grafo">
+      <option name="closed" value="true" />
+      <created>1731102544964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731102544964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Defino el grafo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defino el grafo" />
   </component>
 </project>
